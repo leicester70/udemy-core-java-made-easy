@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author leste
+ *
+ */
+module TheDamnJavaProjectOkay {
+}
