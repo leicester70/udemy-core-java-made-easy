@@ -1,3 +1,6 @@
+_*generated with ChatGPT, with prompt asking for a repository readme description in singlish slang*_
+
+
 # Kanina Learn Java Now!
 
 Yo wassup peeps! Welcome to Kanina Learn Java Now! This repository is all about learning Java and becoming a coding pro. Whether you're a total newbie or a seasoned programmer, we got you covered. Just make sure you follow the instructions below, and you'll be coding like a boss in no time.
@@ -19,4 +22,3 @@ If you're using IntelliJ, make sure you have the latest version installed. Open 
 And that's it lah. 
 
 
-_*generated with ChatGPT, with prompt asking for a repository readme description in singlish slang*_
