@@ -19,4 +19,4 @@ If you're using IntelliJ, make sure you have the latest version installed. Open 
 And that's it lah. 
 
 
-*generated with ChatGPT, with prompt asking for a repository readme description in singlish slang*
+_*generated with ChatGPT, with prompt asking for a repository readme description in singlish slang*_
