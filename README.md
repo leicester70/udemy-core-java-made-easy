@@ -17,3 +17,6 @@ If you're using Eclipse, make sure you have the latest version installed. Open u
 If you're using IntelliJ, make sure you have the latest version installed. Open up IntelliJ and select "Import Project". Select the `TheDamnJavaProject` folder and click "Open". Now you're ready to start coding lah.
 
 And that's it lah. 
+
+
+*generated with ChatGPT, with prompt asking for a repository readme description in singlish slang*
