@@ -1,6 +1,8 @@
 package samplepackagename;
 
 public class DefaultConstructors {
+	
+	static DefaultConstructors directStaticReferenceObject;
 
 	int num = 123;
 
@@ -12,7 +14,7 @@ public class DefaultConstructors {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("[END] - main()");
+		System.out.println("[START - main()]");
 		new DefaultConstructors();
 		new DefaultConstructors();
 
@@ -21,7 +23,7 @@ public class DefaultConstructors {
 		dc.num = 987;
 		System.out.println(String.format("class_hashCode:%s, num:%s", dc.getClass().hashCode(),dc.num));
 
-		System.out.println("[START - main()]");
+		System.out.println("[END] - main()");
 
 	}
 
