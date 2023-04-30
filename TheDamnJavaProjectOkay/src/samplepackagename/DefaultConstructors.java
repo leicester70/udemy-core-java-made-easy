@@ -28,5 +28,7 @@ public class DefaultConstructors {
 	static {
 		// This will execute first, all static execute first
 		System.out.println("[PRINTING FROM STATIC BLOCK]");
+		DefaultConstructors staticBlockConstructor = new DefaultConstructors();
+		System.out.println("Object References in Static Blocks, HASHCODE:" + staticBlockConstructor.getClass().hashCode());
 	}
 }
