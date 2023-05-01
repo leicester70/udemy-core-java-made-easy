@@ -29,7 +29,7 @@ public class DefaultConstructors {
 		DefaultConstructors dc = new DefaultConstructors();
 		dc.num = 987;
 		System.out.println(String.format("OBJECT:%s, num:%s", dc, dc.num));
-
+		ObjectReferenceFromStaticMethod();
 		System.out.println("[END BLOCK]\r");
 
 	}
@@ -43,5 +43,10 @@ public class DefaultConstructors {
 
 	}
 
+	static void ObjectReferenceFromStaticMethod() {
+		System.out.println("[START BLOCK - STATIC METHOD BLOCK]");
+		DefaultConstructors referenceFromStaticMethod = new DefaultConstructors();
+		System.out.println("Object References in Static METHOD Blocks, OBJECT:" + referenceFromStaticMethod);
+		System.out.println("[END BLOCK]\r");
 	}
 }
