@@ -8,9 +8,12 @@ public class DefaultConstructors {
 	int num = 123;
 
 	{
+		System.out.println("[START BLOCK - NON-STATIC BLOCK]");
 		// This is the NON-STATIC BLOCK, which is part of this class.
 		System.out.println(String.format("[PRINTING FROM STATIC BLOCK] GETTING CONSTRUCOTRS OF [%s] : [%s]",
 				this.getClass().getName(), this.getClass().getConstructors()));
+		System.out.println("[END BLOCK - NON-STATIC BLOCK]\r");
+
 	}
 
 	public static void main(String[] args) {
