@@ -2,7 +2,8 @@ package samplepackagename;
 
 public class DefaultConstructors {
 	
-	static DefaultConstructors directStaticReferenceObject;
+	static DefaultConstructors directStaticReferenceObject = new DefaultConstructors();
+	static DefaultConstructors directStaticReferenceObject1 = new DefaultConstructors();
 
 	int num = 123;
 
@@ -13,17 +14,20 @@ public class DefaultConstructors {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("[START - main()]");
+		System.out.println("DIRECTLY REFERENCED STATIC OBJECT - OBJECT:" + directStaticReferenceObject + ", this.num:"
+				+ directStaticReferenceObject.num);
+		System.out.println("DIRECTLY REFERENCED STATIC OBJECT - OBJECT:" + directStaticReferenceObject1 + ",this.num:"
+				+ directStaticReferenceObject.num);
 		new DefaultConstructors();
 		new DefaultConstructors();
 
 		// Object Reference
 		DefaultConstructors dc = new DefaultConstructors();
 		dc.num = 987;
-		System.out.println(String.format("class_hashCode:%s, num:%s", dc.getClass().hashCode(),dc.num));
+		System.out.println(String.format("OBJECT:%s, num:%s", dc, dc.num));
 
-		System.out.println("[END] - main()");
+		System.out.println("[END BLOCK]\r");
 
 	}
 
