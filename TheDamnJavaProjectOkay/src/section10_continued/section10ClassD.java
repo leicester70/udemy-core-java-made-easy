@@ -11,5 +11,8 @@ public class section10ClassD extends section10ClassB {
         section10ClassD classD = new section10ClassD();
         System.out.println("Hello World!" + classD.getSimpleClassName());
         System.out.println(classD.someprivatedata);
+
+        System.out.println("Accessing Protected Method");
+        System.out.println(classD.protStr);
     }
 }

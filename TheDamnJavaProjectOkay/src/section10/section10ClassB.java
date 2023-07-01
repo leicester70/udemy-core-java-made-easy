@@ -5,7 +5,5 @@ public abstract class section10ClassB {
         return this.getClass().getSimpleName();
     }
 
-    protected String abstractString() {
-        return "yes this is abstract";
-    }
+    protected String protStr = "yes this is abstract, and protected";
 }
